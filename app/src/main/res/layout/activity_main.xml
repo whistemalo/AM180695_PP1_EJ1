@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/aqua"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:src="@drawable/equation" />
+
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="388dp"
+        android:layout_height="34dp"
+        android:layout_margin="12dp"
+        android:gravity="center"
+        android:text="Fracciones"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/n1"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:drawableStart="@drawable/a16"
+        android:drawablePadding="12dp"
+        android:hint=" Numerador "
+        android:inputType="number" />
+
+
+    <EditText
+        android:id="@+id/d1"
+        android:layout_width="388dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:drawableStart="@drawable/b16"
+        android:drawablePadding="12dp"
+        android:hint="Denomidor"
+        android:inputType="number" />
+
+
+
+    <EditText
+        android:id="@+id/n2"
+        android:layout_marginTop="20dp"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:drawableStart="@drawable/a16"
+        android:drawablePadding="12dp"
+        android:hint="Numerador"
+        android:inputType="number" />
+
+
+
+    <EditText
+        android:id="@+id/d2"
+        android:layout_width="388dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:drawableStart="@drawable/b16"
+        android:drawablePadding="12dp"
+        android:hint="Denominador"
+        android:inputType="number" />
+
+
+    <Button
+        android:id="@+id/btncalc"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:background="@color/colorPrimary"
+        android:text="calcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
